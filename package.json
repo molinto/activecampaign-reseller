@@ -1,6 +1,6 @@
 {
   "name": "activecampaign-reseller",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Helper for ActiveCampaign resellers",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,9 @@
     "api",
     "reseller"
   ],
-  "repository" :
-  { 
-    "type" : "git",
-    "url" : "https://github.com/molinto/molinto-activecampaign-reseller"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/molinto/molinto-activecampaign-reseller"
   },
   "bugs": {
     "url": "https://github.com/molinto/molinto-activecampaign-reseller/issues"
