@@ -11,7 +11,7 @@ npm install activecampaign-reseller
 ## Usage
 Add your reseller api key as the param
 
-    var ActiveCampaignReseller = require("activecampaign-reseller")("ABCDEFGHIJK1234567890");
+    var ACR = require("activecampaign-reseller")("ABCDEFGHIJK1234567890");
 
 ### Check if an account name exists
 This will check if your customers desired account name already exists (as only 1 can exist in the ActiveCampaign system of that name)
@@ -20,7 +20,7 @@ This will check if your customers desired account name already exists (as only 1
  - __RETURNS__ Boolean. true if name **already exists**
  
  
-    activeCampaign.nameTaken('accountName');
+    ACR.nameTaken('accountName');
 
 
 ### Getting a list of customer account 
@@ -29,7 +29,7 @@ This will return a list of accounts in your seller account
  - __RETURNS__ Object.  List of your customer accounts 
  
  
-    activeCampaign.getAccountsList();
+    ACR.getAccountsList();
 
 ### Get a list of all the reseller plans
 Will return a detailed list of all the reseller plans 
@@ -37,7 +37,7 @@ Will return a detailed list of all the reseller plans
  - __RETURNS__  Object.  List of plans available to reseller
  
  
-    activeCampaign.getPlans();
+    ACR.getPlans();
 
 ### Create a new account
 Creates a new account under your reseller account 
@@ -56,4 +56,4 @@ Creates a new account under your reseller account
     };
 
     
-    activeCampaign.createNewAccount(accountDetails);
+    ACR.createNewAccount(accountDetails);

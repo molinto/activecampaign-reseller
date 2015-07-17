@@ -3,3 +3,4 @@
 .project
 example
 node_modules
+.npm-debug.log
