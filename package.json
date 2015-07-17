@@ -1,0 +1,30 @@
+{
+  "name": "activecampaign-reseller",
+  "version": "1.0.2",
+  "description": "Helper for ActiveCampaign resellers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "activecampaign",
+    "email",
+    "marketing",
+    "infusionsoft",
+    "api",
+    "reseller"
+  ],
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/molinto/molinto-activecampaign-reseller"
+  },
+  "bugs": {
+    "url": "https://github.com/molinto/molinto-activecampaign-reseller/issues"
+  },
+  "author": "Sharry Stowell <sharry@molinto.com>",
+  "license": "ISC",
+  "dependencies": {
+    "activecampaign": "^1.0.1"
+  }
+}
