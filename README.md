@@ -9,7 +9,7 @@ This is a small module designed for node.js servers to help ActiveCampaign resel
 npm install activecampaign-reseller
 
 ## Usage
-Add your reseller api key as the param
+Add your reseller api key as the param, 2nd param is a debug boolean value
 
     var ACR = require("activecampaign-reseller")("ABCDEFGHIJK1234567890");
 
