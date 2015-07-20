@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/molinto/molinto-activecampaign-reseller"
+    "url": "https://github.com/molinto/activecampaign-reseller"
   },
   "bugs": {
-    "url": "https://github.com/molinto/molinto-activecampaign-reseller/issues"
+    "url": "https://github.com/molinto/activecampaign-reseller/issues"
   },
   "author": "Sharry Stowell <sharry@molinto.com>",
   "license": "ISC",
