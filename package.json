@@ -1,6 +1,6 @@
 {
   "name": "activecampaign-reseller",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Helper for ActiveCampaign resellers",
   "main": "./lib/index",
   "scripts": {
