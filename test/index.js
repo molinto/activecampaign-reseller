@@ -1,4 +1,4 @@
-var apiKey = "b653722b58273d1fac8c54ad9fac75ab4f66c8d639a3c5a603b948567d630ccdbfd4b9fa";
+var apiKey = "";
 var debug = false;
 
 //////////////////////////////////////////////////
