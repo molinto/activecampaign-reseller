@@ -1,7 +1,5 @@
-var apiKey = "";
-var debug = false;
-
-//////////////////////////////////////////////////
+var apiKey = "",
+    debug = false;
 
 var assert = require("assert"),
     ACR = require("../lib/index")(apiKey, debug);
